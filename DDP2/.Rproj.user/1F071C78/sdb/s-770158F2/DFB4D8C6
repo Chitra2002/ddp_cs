@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle       : Developing Data Product APP\nsubtitle    : Histogram for Geyser Eruption Duration\nauthor      : Chitra Shukla\njob         : Consultant\nframework   : io2012        # {io2012, html5slides, shower, dzslides, ...}\nhighlighter : highlight.js  # {highlight.js, prettify, highlight}\nhitheme     : tomorrow      # \nwidgets     : []            # {mathjax, quiz, bootstrap}\nmode        : selfcontained # {standalone, draft}\nknit        : slidify::knit2slides\n---\n\n## Title\n\nDeveloping Data Product APP\nHistogram for Geyser Eruption Duration Dataset\n\nBy - Chitra Shukla\n\n--- .class #id\n\n## Introduction\n\nThe perpose of this project is to prepare a moving histogram. The data used was obtained \nfrom R dataset. The analysis and illustration is for Geyser eruptions. The visual comparision\nis by the way of the histogram wih slider.\n\n--- .class #id \n\n## Project Overview\n\nThis shiny application is created for the Coursera Developing Data Product Project.\nThe aim of this excercise is to anyalise data that has been gathered to show the\nwaiting time between the eruptions and the duration of the erupton of the Old Faithful\nGeyser in Yellow stone National Park, WY, USA.\nThere are 272 observations on two variables.\n\n--- .class #id\n\n## Aplication and Function\n\nThe Aplication is created with the Standard Ui.R and Server.R codes using shiny packages\nto prepare panels and sidebars as needed.\nthe hist function is shown below\n```{r}\n?hist\nhist\n```\nThe above code shows what histogram does.\n\n--- .class #id\n\n## Summary and Publication\n\nThe project was completed to meet the assignment goal and is published on R pubs.\n\n\n\n\n",
+    "created" : 1434833843696.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "322909061",
+    "id" : "DFB4D8C6",
+    "lastKnownWriteTime" : 1434836225,
+    "path" : "~/DDP2/CSAppln/index.Rmd",
+    "project_path" : "CSAppln/index.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

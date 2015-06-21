@@ -1,0 +1,17 @@
+{
+    "contents" : "shinyUI(bootstrapPage(\n\n  selectInput(inputId = \"n_breaks\",\n      label = \"Number of bins in histogram (approximate):\",\n      choices = c(10, 20, 35, 50),\n      selected = 20),\n\n  checkboxInput(inputId = \"individual_obs\",\n      label = strong(\"Show individual observations\"),\n      value = FALSE),\n\n  checkboxInput(inputId = \"density\",\n      label = strong(\"Show density estimate\"),\n      value = FALSE),\n\n  plotOutput(outputId = \"main_plot\", height = \"300px\"),\n\n  # Display this only if the density is shown\n  conditionalPanel(condition = \"input.density == true\",\n    sliderInput(inputId = \"bw_adjust\",\n        label = \"Bandwidth adjustment:\",\n        min = 0.2, max = 2, value = 1, step = 0.2)\n  )\n\n))",
+    "created" : 1434832251577.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1452342044",
+    "id" : "4D978B86",
+    "lastKnownWriteTime" : 1434832239,
+    "path" : "~/DD2/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

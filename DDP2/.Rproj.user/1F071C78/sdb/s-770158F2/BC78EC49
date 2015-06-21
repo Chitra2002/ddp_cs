@@ -1,0 +1,17 @@
+{
+    "contents" : "shinyServer(function(input, output) {\n\n  output$main_plot <- renderPlot({\n\n    hist(faithful$eruptions,\n      probability = TRUE,\n      breaks = as.numeric(input$n_breaks),\n      xlab = \"Duration (minutes)\",\n      main = \"Geyser eruption duration\")\n\n    if (input$individual_obs) {\n      rug(faithful$eruptions)\n    }\n\n    if (input$density) {\n      dens <- density(faithful$eruptions,\n          adjust = input$bw_adjust)\n      lines(dens, col = \"blue\")\n    }\n\n  })\n})",
+    "created" : 1434832318774.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2021965958",
+    "id" : "BC78EC49",
+    "lastKnownWriteTime" : 1434832312,
+    "path" : "~/DD2/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

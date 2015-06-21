@@ -1,0 +1,17 @@
+{
+    "contents" : "shinyapps::setAccountInfo(name='chitra2002', token='B18E706AD36500873C8800BFA946FDF1', secret='qJdgeRp5Eevy+ee4prMgFld1ZIBjTdJGpoXVOBkW')\n\n\nshinyapps::deployApp('C:/Users/Jyotsna Mehta/Documents/DDP2')\n\nslidify(\"index.Rmd\")\nbrowseURL('index.html')",
+    "created" : 1434833244960.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3631237933",
+    "id" : "902B9E53",
+    "lastKnownWriteTime" : 1434833887,
+    "path" : "~/DDP2/shinyLoad.R",
+    "project_path" : "shinyLoad.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
